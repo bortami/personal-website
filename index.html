@@ -3,28 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="your-stylesheet-name-here.css">
+    <link rel="stylesheet" href="your-stylesheet-name-here.css" />
     <title>Document</title>
   </head>
   <body>
     <h1>Michelle Tabor</h1>
     <h2>Awesome Wife</h2>
-    <aside>
+    <aside style="background-color: aliceblue;">
       <h3>this is a heading</h3>
-      <p>
-        i am awesoe and you'd think I knew how to do this already wouldn't you?
-      </p>
-      <img
-        src="https://media.giphy.com/media/Z3ChoP3rZewhy/giphy.gif"
-        alt="words"
-      />
+      <div class="bio">
+        <p>
+          I am awesome and you'd think I knew how to do this already wouldn't
+          you?
+        </p>
+        <img
+          src="https://media.giphy.com/media/Z3ChoP3rZewhy/giphy.gif"
+          alt="words"
+          class="headshot"
+        />
+      </div>
     </aside>
     <section>
       <h3>Tech</h3>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScrpt</li>
+        <li id="html">HTML</li>
+        <li id="css">CSS</li>
+        <li id="javascript">JavaScrpt</li>
       </ul>
     </section>
     <section>
@@ -34,6 +38,14 @@
       <article>Bank Teller</article>
       <article>President</article>
     </section>
+    <section class="weather-forecast">
+        <h3 class="weather-heading">This Week's Weather</h3>
+        <p class="forecast">Today: Sunny, high of 53</p>
+        <p class="forecast">Wednesday: Sunny, high of 63</p>
+        <p class="forecast">Thursday: Cloudy, high of 47</p>
+        <p class="forecast">Friday: Sunny, high of 50</p>
+        <p class="forecast">Saturday: Cloudy, high of 56</p>
+     </section>
     <footer>Built by Mico</footer>
   </body>
 </html>

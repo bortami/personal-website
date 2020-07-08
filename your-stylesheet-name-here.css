@@ -1,5 +1,57 @@
-p{
-    background-color: red;
-  }
+/* Apply the following styles:
+Give all p elements a font-size of 1.2em
+Give the class "weather-heading" a font-family of Helvetica.
+Give the class "weather-forecast" a background-color of "#c7d5ed"
+Give the class "forecast" a color of "#270538" */
 
-  
+p {
+  background-color: red;
+  font-size: 1.2em;
+}
+.weather-heading {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.weather-forecast {
+  background-color: #c7d5ed;
+}
+.forecast {
+  color: #270538;
+}
+footer{
+    position:  bottom;
+    border: 12px dashed green;
+}
+.bio {
+  font-size: 18px;
+  border: 1px solid black;
+  width: 50vw;
+  height: 20vh;
+  font-size: 1.2em;
+}
+.headshot {
+  width: 30%;
+  height: 100%;
+}
+
+li {
+  color: rgb(155, 244, 66);
+}
+
+h3 {
+  text-align: center;
+  color: #9bf442;
+  font-weight: bold;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 13px;
+  background: grey;
+}
+h1 {
+  color: blue; /* blue text */
+}
+
+p {
+  background-color: #ff0000; /* red background*/
+  color: rgb(0, 255, 0); /* green text */
+  border-color: rgba(0, 0, 255, 0.8); /* blue, slightly transparent border */
+}
